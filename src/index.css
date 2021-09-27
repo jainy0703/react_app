@@ -1,0 +1,51 @@
+body{
+  margin: 0px;
+  font-family: Roboto;
+}
+header{
+  background-color: rgb(241, 232, 204);
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+header a{
+  width: 33.33%;
+  display: inline-block;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+}
+header a:hover{
+  color: rgb(209, 165, 70);
+}
+ header a.active{
+   color: rgb(202, 188, 116);
+   font-size: 30px;
+ }
+
+ main{
+   background-color: rgb(241, 232, 204);
+   min-height: calc(100vh - 64px);
+   text-align: center;
+   color: black;
+
+ }
+main img{
+  width: 100%;
+  height: auto;
+
+}
+main h1{
+  font-size: 70px;
+  margin: 20px;
+  padding: 30px 50px 0;
+}
+
+main p{
+  font-size: 24px;
+  padding: 0 50px 50px;
+  margin: 0;
+}
